@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #333;
+  font-family: Arial, sans-serif;
+}
+
+.game-container {
+  text-align: center;
+  color: #fff;
+}
+
+.game-title {
+  font-size: 2em;
+  color: yellow;
+  text-shadow: 0px 0px 10px yellow;
+}
+
+.game-area {
+  position: relative;
+  width: 200px;
+  height: 400px;
+  background-color: #111;
+  border: 2px solid #fff;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+#score {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  color: white;
+}
+
+.car {
+  position: absolute;
+  width: 30px;
+  height: 50px;
+}
+
+.player-car {
+  background-color: blue;
+  bottom: 10px;
+  left: 85px;
+}
+
+.enemy-car {
+  background-color: red;
+  top: 0px;
+  left: 85px;
+}
